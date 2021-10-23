@@ -1,16 +1,48 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6093959&assignment_repo_type=AssignmentRepo)
-# Project Notes
+!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
 
-Project Instructions: https://vuxcode.netlify.app/pr1/lessons/major-project-brief/
+  body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    border: 1px solid white;
+  }
+  </style>
+</head>
+<body>
+<canvas width="400" height="400" id="game"></canvas>
+<script>
+var canvas = document.getElementById('game');
+var context = canvas.getContext('2d');
 
-> You can use this section of the file to keep notes about your project as you work on it.
+var grid = 16;
+var count = 0;
+  
+var snake = {
+  x: 160,
+  y: 160,
+  
+  
+  dx: grid,
+  dy: 0,
+  
 
-REMEMBER TO "COMMIT" YOUR CHANGES TO THIS FILE!
+  cells: [],
+  
 
-# Project Summary
-
-> Remember that before the final submission date you should include a "PROJECT SUMMARY" in this section here. 
-
-# User Guide
-
-> Write a clear user guide for how someone should use your program.
+  maxCells: 4
+};
+var apple = {
+  x: 320,
+  y: 320
+};
