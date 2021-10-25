@@ -1,38 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-  <style>
-  html, body {
-    height: 100%;
-    margin: 0;
-  }
+# Project Notes
 
-  body {
-    background: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  canvas {
-    border: 1px solid white;
-  }
-  </style>
-</head>
-<body>
-<canvas width="400" height="400" id="game"></canvas>
-<script>
-var canvas = document.getElementById('game');
-var context = canvas.getContext('2d');
+Project Instructions: https://vuxcode.netlify.app/pr1/lessons/major-project-brief/
 
-var grid = 16;
-var count = 0;
-  
-var snake = {
-  x: 160,
-  y: 160,
-  
-  
+> You can use this section of the file to keep notes about your project as you work on it.
+
+REMEMBER TO "COMMIT" YOUR CHANGES TO THIS FILE!
+
+# Project Summary
+
+> Remember that before the final submission date you should include a "PROJECT SUMMARY" in this section here. 
+
+# User Guide
+
+> Write a clear user guide for how someone should use your program.
   dx: grid,
   dy: 0,
   
