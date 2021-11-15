@@ -1,4 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6093959&assignment_repo_type=AssignmentRepo)
 # Project Notes
 
 Project Instructions: https://vuxcode.netlify.app/pr1/lessons/major-project-brief/
@@ -14,3 +13,16 @@ REMEMBER TO "COMMIT" YOUR CHANGES TO THIS FILE!
 # User Guide
 
 > Write a clear user guide for how someone should use your program.
+  dx: grid,
+  dy: 0,
+  
+
+  cells: [],
+  
+
+  maxCells: 4
+};
+var apple = {
+  x: 320,
+  y: 320
+};
